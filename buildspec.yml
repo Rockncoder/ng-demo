@@ -1,0 +1,11 @@
+version: 0.1
+phases:
+  build:
+    commands:
+      - echo Hello there...
+      - ng build --prod
+artifacts:
+  files:
+    - dist/ng-demo/*
+
+
