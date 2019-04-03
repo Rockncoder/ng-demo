@@ -8,5 +8,7 @@ phases:
 artifacts:
   files:
     - dist/ng-demo/*
+    discard-paths: yes
+    base-directory: 'dist'
 
 
